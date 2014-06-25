@@ -22,6 +22,8 @@ var EN = {
 		var body = document.querySelector('#resume');
 		body.appendChild(t.content.cloneNode(true));
 
+		document.documentElement.lang = 'en';
+
 		Editor.start();
 	}	
 }
@@ -34,6 +36,8 @@ var PT = {
 		var body = document.querySelector('#resume');
 		body.appendChild(t.content.cloneNode(true));
 		
+		document.documentElement.lang = 'pt-br';
+		
 		Editor.start();
 	}	
 }
@@ -43,7 +47,7 @@ var Resume = {
 	    	Editor.deactivate();
 	    	
 			var view = {
-				lang : "en",
+				lang : document.documentElement.lang,
 				resume : $('#resume').html().trim(),
 				script : [{
 					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/jquery.min.js"></script>'
