@@ -1,4 +1,4 @@
-var E;
+var window.E = null;
 var Editor = {
 	start : function() {
 		var elements = document.querySelectorAll('.editable'),
