@@ -1,7 +1,7 @@
-var window.E = null;
+var E = null;
 var Editor = {
 	start : function() {
-		var elements = document.querySelectorAll('.editable'),
+		var elements = document.querySelectorAll('.editable');
 	    E = new MediumEditor(elements);
 	    	    
 	    Editor.activate();
