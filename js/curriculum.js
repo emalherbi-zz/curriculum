@@ -1,8 +1,17 @@
+var E;
 var Editor = {
 	start : function() {
 		var elements = document.querySelectorAll('.editable'),
-	    editor = new MediumEditor(elements);
-	}	
+	    E = new MediumEditor(elements);
+	    	    
+	    Editor.activate();
+	},
+	activate : function() {
+		E.activate();	
+	},
+	deactivate : function() {
+		E.deactivate();	
+	}
 }
 var EN = {
 	show : function() {
@@ -31,6 +40,8 @@ var PT = {
 var Resume = {
 	save : function() {
 	    $('#btn-save').click(function() {
+	    	Editor.deactivate();
+	    	
 			var view = {
 				lang : "en",
 				resume : $('#resume').html().trim(),
@@ -48,7 +59,9 @@ var Resume = {
 			zip.file("index.html", output);
 				
 			var content = zip.generate({type:"blob"});
-			saveAs(content, "curriculum.zip");   	    	
+			saveAs(content, "curriculum.zip");   
+			
+	    	Editor.activate();
 	    });
 	},
 	pt : function() {
