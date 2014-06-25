@@ -57,14 +57,6 @@ var Resume = {
 				
 			var content = zip.generate({type:"blob"});
 			saveAs(content, "curriculum.zip");   	    	
-	    	
-	    	// var index = $('html').html().trim();
-// 	
-			// var zip = new JSZip();
-			// zip.file("index.html", index);
-// 	
-			// var content = zip.generate({type:"blob"});
-			// saveAs(content, "curriculum.zip");    	    	
 	    });
 	},
 	pt : function() {
