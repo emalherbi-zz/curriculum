@@ -3,17 +3,21 @@ Curriculum
 
 A simple way to create your HTML resume.
 
-## how-to
+## How-to
 
 Access: http://emalherbi.github.io/curriculum/
 
+Select the language
+
+![alt tag](http://emalherbi.github.io/curriculum/img/ex_lang.png)
+
 Edit the curriculum with your information.
 
-![alt tag](http://emalherbi.github.io/curriculum/img/exemplo.png)
+![alt tag](http://emalherbi.github.io/curriculum/img/ex_resume.png)
 
 Download it.
 
-![alt tag](http://emalherbi.github.io/curriculum/img/exemplo_exportar_html.png)
+![alt tag](http://emalherbi.github.io/curriculum/img/ex_save.png)
 
 ## Contributing
 
