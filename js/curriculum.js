@@ -38,14 +38,6 @@ var Resume = {
 					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/jquery.min.js"></script>'
 				},{
 					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/bootstrap.min.js"></script>'
-				},{
-					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/medium-editor.min.js"></script>'
-				},{
-					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/FileSaver.js"></script>'
-				},{
-					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/jszip.min.js"></script>'
-				},{
-					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/curriculum.js"></script>'
 				}]
 			};
 			
