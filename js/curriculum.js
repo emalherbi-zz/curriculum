@@ -20,8 +20,8 @@ var EN = {
 		var t = document.querySelector("#template-en");
 		
 		var body = document.querySelector('#resume');
-		body.appendChild(t.content.cloneNode(true));
-
+		body.appendChild(t.content.cloneNode(true));		
+		$("#btn-save span").text("Save Html");
 		document.documentElement.lang = 'en';
 
 		Editor.start();
@@ -34,8 +34,8 @@ var PT = {
 		var t = document.querySelector("#template-pt-br");
 		
 		var body = document.querySelector('#resume');
-		body.appendChild(t.content.cloneNode(true));
-		
+		body.appendChild(t.content.cloneNode(true));		
+		$("#btn-save span").text("Salvar Html");
 		document.documentElement.lang = 'pt-br';
 		
 		Editor.start();
