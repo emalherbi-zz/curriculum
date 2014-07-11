@@ -18,26 +18,24 @@ var EN = {
 		$('#resume').children().remove();
 
 		var t = document.querySelector("#template-en");
-		
 		var body = document.querySelector('#resume');
 		body.appendChild(t.content.cloneNode(true));		
-		$("#btn-save span").text("Save Html");
+		
 		document.documentElement.lang = 'en';
-
+		$("#btn-save").text("Save Html");
 		Editor.start();
 	}	
 }
 var PT = {
 	show : function() {
 		$('#resume').children().remove();
-	
+
 		var t = document.querySelector("#template-pt-br");
-		
 		var body = document.querySelector('#resume');
 		body.appendChild(t.content.cloneNode(true));		
-		$("#btn-save span").text("Salvar Html");
-		document.documentElement.lang = 'pt-br';
 		
+		document.documentElement.lang = 'pt-br';
+		$("#btn-save").text("Salvar Html");
 		Editor.start();
 	}	
 }
