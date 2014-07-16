@@ -3,14 +3,14 @@ var Editor = {
 	start : function() {
 		var elements = document.querySelectorAll('.editable');
 	    E = new MediumEditor(elements);
-	    	    
+
 	    Editor.activate();
 	},
 	activate : function() {
-		E.activate();	
+		E.activate();
 	},
 	deactivate : function() {
-		E.deactivate();	
+		E.deactivate();
 	}
 }
 var EN = {
@@ -19,12 +19,11 @@ var EN = {
 
 		var t = document.querySelector("#template-en");
 		var body = document.querySelector('#resume');
-		body.appendChild(t.content.cloneNode(true));		
-		
+		body.appendChild(t.content.cloneNode(true));
+
 		document.documentElement.lang = 'en';
-		$("#btn-save").text("Save Html");
 		Editor.start();
-	}	
+	}
 }
 var PT = {
 	show : function() {
@@ -32,18 +31,17 @@ var PT = {
 
 		var t = document.querySelector("#template-pt-br");
 		var body = document.querySelector('#resume');
-		body.appendChild(t.content.cloneNode(true));		
-		
+		body.appendChild(t.content.cloneNode(true));
+
 		document.documentElement.lang = 'pt-br';
-		$("#btn-save").text("Salvar Html");
 		Editor.start();
-	}	
+	}
 }
 var Resume = {
 	save : function() {
 	    $('#btn-save').click(function() {
 	    	Editor.deactivate();
-	    	
+
 			var view = {
 				lang : document.documentElement.lang,
 				resume : $('#resume').html().trim(),
@@ -53,16 +51,16 @@ var Resume = {
 					url : '<script type="text/javascript" src="http://emalherbi.github.io/curriculum/js/bootstrap.min.js"></script>'
 				}]
 			};
-			
+
 			var template = document.getElementById('template').innerHTML;
 			var output = Mustache.render(template, view);
-			
+
 			var zip = new JSZip();
 			zip.file("index.html", output);
-				
+
 			var content = zip.generate({type:"blob"});
-			saveAs(content, "curriculum.zip");   
-			
+			saveAs(content, "curriculum.zip");
+
 	    	Editor.activate();
 	    });
 	},
@@ -80,7 +78,7 @@ var Resume = {
 
 $(document).ready(function() {
 	EN.show();
-	
+
 	Resume.pt();
 	Resume.en();
 	Resume.save();
