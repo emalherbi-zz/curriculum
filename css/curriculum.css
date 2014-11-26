@@ -16,11 +16,16 @@ body {
 	float: right;
 	font-size: 18px;
 }
+#name_and_contact_details h4 {
+  color: #383838;
+  font-style:	normal;
+  font-size: inherit;
+}
 .title {
 	font: 145% Georgia;
 	color: #383838;
 	font-style:	italic;
-	border-bottom: 1px solid #ccc;	
+	border-bottom: 1px solid #ccc;
 }
 .sub-title {
 	font: 115% Georgia;
