@@ -41,13 +41,13 @@ var PDF = {
 	make : function() {
 		var pdf = new jsPDF('p', 'pt', 'a4');
 
-		$('#my-email'    ).html( "email: " 		+ $('#my-email'    ).attr('href').replace('mailto:', '') + "<br/>" );
-		$('#my-page' 		 ).html( "page: " 		+ $('#my-page'     ).attr('href') + "<br/>" );
-		$('#my-portfolio').html( "porfolio: " + $('#my-portfolio').attr('href') + "<br/>" );
-		$('#my-linkedin' ).html( "linkedin: " + $('#my-linkedin' ).attr('href') + "<br/>" );
-		$('#my-github' 	 ).html( "github: "   + $('#my-github' 	 ).attr('href') + "<br/>" );
-		$('#my-npm' 		 ).html( "npm: "      + $('#my-npm'			 ).attr('href') + "<br/>" );
-		$('#my-skype'    ).html( "skype: "    + $('#my-skype'    ).attr('href').replace('skype:', '').replace('?add', '') );
+		$('#my-email'    ).html( "email: " 		+ $('#my-email'    ).attr('href').replace('mailto:', '') ).wrap('<h5></h5>');
+		$('#my-page' 		 ).html( "page: " 		+ $('#my-page'     ).attr('href') ).wrap('<h5></h5>');
+		$('#my-portfolio').html( "porfolio: " + $('#my-portfolio').attr('href') ).wrap('<h5></h5>');
+		$('#my-linkedin' ).html( "linkedin: " + $('#my-linkedin' ).attr('href') ).wrap('<h5></h5>');
+		$('#my-github' 	 ).html( "github: "   + $('#my-github' 	 ).attr('href') ).wrap('<h5></h5>');
+		$('#my-npm' 		 ).html( "npm: "      + $('#my-npm'			 ).attr('href') ).wrap('<h5></h5>');
+		$('#my-skype'    ).html( "skype: "    + $('#my-skype'    ).attr('href').replace('skype:', '').replace('?add', '') ).wrap('<h5></h5>');
 
 		source = $('#resume')[0];
 
