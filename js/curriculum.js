@@ -37,6 +37,53 @@ var PT = {
 		Editor.start();
 	}
 }
+var PDF = {
+	make : function() {
+		var pdf = new jsPDF('p', 'pt', 'a4');
+
+		$('#my-email'    ).html( "email: " 		+ $('#my-email'    ).attr('href').replace('mailto:', '') + "<br/>" );
+		$('#my-page' 		 ).html( "page: " 		+ $('#my-page'     ).attr('href') + "<br/>" );
+		$('#my-portfolio').html( "porfolio: " + $('#my-portfolio').attr('href') + "<br/>" );
+		$('#my-linkedin' ).html( "linkedin: " + $('#my-linkedin' ).attr('href') + "<br/>" );
+		$('#my-github' 	 ).html( "github: "   + $('#my-github' 	 ).attr('href') + "<br/>" );
+		$('#my-npm' 		 ).html( "npm: "      + $('#my-npm'			 ).attr('href') + "<br/>" );
+		$('#my-skype'    ).html( "skype: "    + $('#my-skype'    ).attr('href').replace('skype:', '').replace('?add', '') );
+
+		source = $('#resume')[0];
+
+		/*
+		specialElementHandlers = {
+			'#bypassme' : function(element, renderer) {
+				return true
+			}
+		};
+		*/
+
+		margins = {
+			top : 55,
+			bottom : 60,
+			left : 40,
+			width : 522
+		};
+
+		pdf.fromHTML(
+			source,
+			margins.left,
+			margins.top,
+
+			{
+				'width' : margins.width //,
+				// 'elementHandlers' : specialElementHandlers
+			},
+
+			function(dispose) {
+				pdf.save('curriculum.pdf');
+			},
+
+			margins
+		);
+	}
+}
 var Resume = {
 	save : function() {
 	    $('#btn-save').click(function() {
@@ -73,6 +120,11 @@ var Resume = {
 	    $('#btn-en').click(function() {
 	    	EN.show();
 	    });
+	},
+	pdf : function() {
+			$('#btn-pdf').click(function() {
+				PDF.make();
+			});
 	}
 }
 
@@ -82,4 +134,5 @@ $(document).ready(function() {
 	Resume.pt();
 	Resume.en();
 	Resume.save();
+	Resume.pdf();
 });

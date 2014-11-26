@@ -29,7 +29,8 @@
 			<div class="col-md-10 col-md-offset-1 margin-5" >
 				<button id="btn-en" type="button" class="btn btn-danger">EN</button>
 				<button id="btn-pt" type="button" class="btn btn-success">PT</button>
-				<button id="btn-save" type="button" class="btn btn-info"><i class="fa fa-save fa-lg"></i></button>
+				<button id="btn-save" type="button" class="btn btn-info"><i class="fa fa-download fa-lg"></i></button>
+				<button id="btn-pdf" type="button" class="btn btn-info"><i class="fa fa-file-pdf-o fa-lg"></i></button>
 			</div>
 			<div class="col-md-10 col-md-offset-1"><hr />
 				<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=emalherbi&repo=curriculum&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="90px" height="20px"></iframe>
@@ -46,6 +47,7 @@
 	<script type="text/javascript" src="js/medium-editor.min.js"></script>
 	<script type="text/javascript" src="js/FileSaver.js"></script>
 	<script type="text/javascript" src="js/jszip.min.js"></script>
+	<script type="text/javascript" src="js/jspdf.debug.js"></script>
 	<script type="text/javascript" src="js/mustache.js"></script>
 	<script type="text/javascript" src="js/curriculum.js"></script>
 
@@ -95,11 +97,13 @@
 				Brasileiro, 27 anos, solteiro, sem filhos.<br/>
 				Pato Branco - Paraná.<br/>
 				Disponibilidade parar morar fora ou viagens.<br/>
-				<b><a href="mailto:emalherbi@gmail.com"  >email.</a></b>
-				<b><a href="http://emalherbi.com/about/" >page.</a></b>
-				<b><a href="http://br.linkedin.com/in/emalherbi" >linkedin.</a></b>
-				<b><a href="https://github.com/emalherbi" >github.</a></b>
-				<b><a href="skype:eduardo.malherbi?add" >skype.</a></b>
+				<b><a id="my-email" href="mailto:emalherbi@gmail.com"  >email.</a></b>
+				<b><a id="my-page" href="http://emalherbi.com/about/" >page.</a></b>
+				<b><a id="my-portfolio" href="http://malherbi.com/portfolio/" >portfolio.</a></b>
+				<b><a id="my-linkedin" href="http://br.linkedin.com/in/emalherbi" >linkedin.</a></b>
+				<b><a id="my-github" href="https://github.com/emalherbi" >github.</a></b>
+				<b><a id="my-npm" href="https://www.npmjs.org/~emalherbi" >npm.</a></b>
+				<b><a id="my-skype" href="skype:eduardo.malherbi?add" >skype.</a></b>
 				</p>
 			</div>
 		</div>
@@ -214,11 +218,13 @@
 				Brazilian, 27 years, single, no children.<br>
 				Pato Branco - Paraná.<br>
 				Willingness to travel or live outsite.<br>
-				<b><a href="mailto:emalherbi@gmail.com"  >email.</a></b>
-				<b><a href="http://emalherbi.com/about/" >page.</a></b>
-				<b><a href="http://br.linkedin.com/in/emalherbi" >linkedin.</a></b>
-				<b><a href="https://github.com/emalherbi" >github.</a></b>
-				<b><a href="skype:eduardo.malherbi?add" >skype.</a></b>
+				<b><a id="my-email" href="mailto:emalherbi@gmail.com"  >email.</a></b>
+				<b><a id="my-page" href="http://emalherbi.com/about/" >page.</a></b>
+				<b><a id="my-portfolio" href="http://malherbi.com/portfolio/" >portfolio.</a></b>
+				<b><a id="my-linkedin" href="http://br.linkedin.com/in/emalherbi" >linkedin.</a></b>
+				<b><a id="my-github" href="https://github.com/emalherbi" >github.</a></b>
+				<b><a id="my-npm" href="https://www.npmjs.org/~emalherbi" >npm.</a></b>
+				<b><a id="my-skype" href="skype:eduardo.malherbi?add" >skype.</a></b>
 				</p>
 			</div>
 		</div>
