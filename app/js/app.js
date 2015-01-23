@@ -40,32 +40,12 @@ var PT = {
 var PDF = {
 	make : function() {
 		var pdf = new jsPDF('p', 'pt', 'a4');
-		
-		$('#name_and_contact_details h1 span').css('float', 'none');
 
-		var myemail     = "email: "    + $('#my-email'    ).attr('href').replace('mailto:', '');
-		var mypage      = "page: " 		 + $('#my-page'     ).attr('href');
-		var myportfolio = "porfolio: " + $('#my-portfolio').attr('href');
-		var mylinkedin  = "linkedin: " + $('#my-linkedin' ).attr('href');
-		var mygithub    = "github: "   + $('#my-github' 	).attr('href');
-		var mynpm       = "npm: "      + $('#my-npm'			).attr('href');
-		var myskype     = "skype: "    + $('#my-skype'    ).attr('href').replace('skype:', '').replace('?add', '');
-
-		$('#contact_details_pdf'   ).append('<h2 class="title">Contact</h2>').append('<ul></ul>');
-		$('#contact_details_pdf ul').append('<li>' + myemail 			+ '</li>');
-		$('#contact_details_pdf ul').append('<li>' + mypage 			+ '</li>');
-		$('#contact_details_pdf ul').append('<li>' + myportfolio 	+ '</li>');
-		$('#contact_details_pdf ul').append('<li>' + mylinkedin 	+ '</li>');
-		$('#contact_details_pdf ul').append('<li>' + mygithub 		+ '</li>');
-		$('#contact_details_pdf ul').append('<li>' + mynpm 				+ '</li>');
-		$('#contact_details_pdf ul').append('<li>' + myskype 			+ '</li>');
+		$('#name_details h1 span').css('float', 'none');
 
 		source = $('#resume')[0];
 
 		specialElementHandlers = {
-			'#contact_details' : function(element, renderer) {
-				return true
-			}
 		};
 
 		margins = {
