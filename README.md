@@ -15,9 +15,9 @@ Edit the curriculum with your information.
 
 ![alt tag](http://emalherbi.github.io/curriculum/img/ex_resume.png)
 
-Download it.
+Download it or Export to PDF.
 
-![alt tag](http://emalherbi.github.io/curriculum/img/ex_save.png)
+![alt tag](http://emalherbi.github.io/curriculum/img/ex_download.png)
 
 ## Contributing
 
@@ -31,7 +31,7 @@ Download it.
 
 ## License
 
-[MIT License © Curriculum] (https://github.com/emalherbi/curriculum/blob/master/LICENSE)
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
 
 ## Creator
 
