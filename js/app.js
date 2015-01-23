@@ -37,6 +37,42 @@ var PT = {
 		Editor.start();
 	}
 }
+var PDF = {
+	make : function() {
+		var pdf = new jsPDF('p', 'pt', 'a4');
+
+		$('#name_details h1 span').css('float', 'none');
+
+		source = $('#resume')[0];
+
+		specialElementHandlers = {
+		};
+
+		margins = {
+			top : 55,
+			bottom : 60,
+			left : 40,
+			width : 522
+		};
+
+		pdf.fromHTML(
+			source,
+			margins.left,
+			margins.top,
+
+			{
+				'width' : margins.width,
+				'elementHandlers' : specialElementHandlers
+			},
+
+			function(dispose) {
+				pdf.save('curriculum.pdf');
+			},
+
+			margins
+		);
+	}
+}
 var Resume = {
 	save : function() {
 	    $('#btn-save').click(function() {
@@ -73,6 +109,11 @@ var Resume = {
 	    $('#btn-en').click(function() {
 	    	EN.show();
 	    });
+	},
+	pdf : function() {
+			$('#btn-pdf').click(function() {
+				PDF.make();
+			});
 	}
 }
 
@@ -82,4 +123,5 @@ $(document).ready(function() {
 	Resume.pt();
 	Resume.en();
 	Resume.save();
+	Resume.pdf();
 });
