@@ -1,5 +1,5 @@
 html, body, h1, h2, h3, h4, h5, h6 {
-  font-family: "Maven Pro","Helvetica Neue",Helvetica,sans-serif;
+  font-family: "Maven Pro", "Helvetica Neue",Helvetica,sans-serif;
 }
 body {
   color: #555;
@@ -10,28 +10,15 @@ body {
   cursor: pointer;
 }
 
-/*  */
-
-.padding-top-5 {
-  padding-top: 5px;
-}
 .border-bottom {
   border-bottom: 1px solid #ccc;
-}
-.right {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/*  */
-
-#name_details #phone {
-	padding: 12px 0 0 0;
-	float: right;
-	font-size: 18px;
 }
 .title {
   font-size: 175%;
   font-style: italic;
+}
+#name_details #phone {
+	padding: 12px 0 0 0;
+	float: right;
+	font-size: 18px;
 }
