@@ -1,17 +1,46 @@
 {
-  "name": "curriculum",
+  "name": "resume",
+  "description": "résumé",
   "version": "2.0.0",
-  "description": "curriculum!",
-  "authors": [
-    "emalherbi"
-  ],
+  "homepage": "https://www.xpert.com.br",
   "license": "MIT",
   "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "components-font-awesome": "~4.3.0",
+    "html5-boilerplate": "~4.3.0",
+    "jquery": "~2.1.4",
+    "medium-editor": "~4.8.0"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "css": "**/bootstrap.css",
+      "fonts": [
+        "**/**.woff",
+        "**/**.ttf"
+      ]
+    },
+    "components-font-awesome": {
+      "css": "**/font-awesome.min.css",
+      "fonts": [
+        "**/fontawesome-webfont.woff",
+        "**/fontawesome-webfont.ttf"
+      ]
+    },
+    "html5-boilerplate": {
+      "css": "**/normalize.css"
+    },
+    "jquery": {
+      "js": "**/dist/jquery.js"
+    },
+    "medium-editor": {
+      "css": [
+        "**/medium-editor.css"
+      ],
+      "themes" : [
+        "**/bootstrap.css"
+      ],
+      "js" : "**/medium-editor.js"
+    }
+  }
 }

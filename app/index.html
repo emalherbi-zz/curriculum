@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Resume</title>
+	<title>Résumé</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="" >
@@ -11,12 +11,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css' />
 
 	<!-- build:css css/app.min.css -->
-	<link href="css/normalize.css" rel="stylesheet" >
- 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/medium-editor.min.css" rel="stylesheet">
-	<link href="css/themes/bootstrap.min.css" rel="stylesheet">
-	<link href="css/app.css" rel="stylesheet">
+	<link rel="stylesheet" href="lib/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="lib/components-font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lib/medium-editor/css/medium-editor.css">
+	<link rel="stylesheet" href="lib/medium-editor/themes/bootstrap.css">
+	<link rel="stylesheet" href="css/app.css">
 	<!-- endbuild -->
 
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -27,54 +27,64 @@
 	<![endif]-->
 </head>
 <body>
-  <a href="https://github.com/emalherbi/curriculum"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+	<!-- NAVBAR -->
+  <header class="navbar navbar-default navbar-static-top" role="banner" >
+  	<div class="container">
+  		<div class="navbar-header">
+  			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+  				<span class="sr-only"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  				<span class="icon-bar"></span>
+  			</button>
+  			<a href="#" class="navbar-brand">Résumé</a>
+  		</div>
+  		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation" >
+  			<ul class="nav navbar-nav">
+          <li class="active"><a id="btn-en" href="javascript:void(0)">EN</a></li>
+					<li><a id="btn-pt" href="javascript:void(0)">PT</a></li>
+  			</ul>
+  			<ul class="nav navbar-nav navbar-right">
+					<li><a href="https://github.com/emalherbi/curriculum"><i class="fa fa-github fa-lg"></i></a></li>
+					<li><a id="btn-edit" href="javascript:void(0)"><i class="fa fa-pencil-square-o fa-lg"></i></a></li>
+					<li><a id="btn-save" href="javascript:void(0)"><i class="fa fa-download fa-lg"></i></a></li>
+					<li><a id="btn-pdf" href="javascript:void(0)"><i class="fa fa-file-pdf-o fa-lg"></i></a></li>
+  			</ul>
+  		</nav>
+  	</div>
+  </header>
 
 	<div class="container">
-		<div class="row clearfix padding-top-5" >
-			<div class="col-md-10 col-md-offset-1" >
-				<button id="btn-en" type="button" class="btn btn-danger">EN</button>
-				<button id="btn-pt" type="button" class="btn btn-success">PT</button>
-				<div class="right" >
-					<button id="btn-save" type="button" class="btn btn-info"><i class="fa fa-download fa-lg"></i></button>
-					<button id="btn-pdf" type="button" class="btn btn-info"><i class="fa fa-file-pdf-o fa-lg"></i></button>
-				</div>
-			</div>
-			<div class="col-md-10 col-md-offset-1">
-				<hr />
-				<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=emalherbi&repo=curriculum&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="90px" height="20px"></iframe>
-				<iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=emalherbi&repo=curriculum&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
-			</div>
-
+		<div class="row">
 			<div id="resume" name="resume" class="col-md-10 col-md-offset-1" >
 			</div>
 		</div>
 	</div>
 
 	<!-- build:js js/app.min.js -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/medium-editor.min.js"></script>
+	<script type="text/javascript" src="lib/jquery/js/jquery.js"></script>
+	<script type="text/javascript" src="lib/medium-editor/js/medium-editor.js"></script>
+	<script type="text/javascript" src="js/mustache.js"></script>
 	<script type="text/javascript" src="js/FileSaver.js"></script>
 	<script type="text/javascript" src="js/jszip.min.js"></script>
 	<script type="text/javascript" src="js/jspdf.debug.js"></script>
-	<script type="text/javascript" src="js/mustache.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 	<!-- endbuild -->
 
-	<script id="template" type="text/html" >
+	<script id="template" type="text/html">
 		<!DOCTYPE html>
 		<html lang="{{lang}}">
 		<head>
 			<meta charset="utf-8">
-			<title>Resume</title>
+			<title>Résumé</title>
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<meta name="description" content="" >
 			<meta name="author" content="" >
 
 			<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css' />
 
-			<link href="http://emalherbi.github.io/curriculum/css/normalize.css" rel="stylesheet" />
-		 	<link href="http://emalherbi.github.io/curriculum/css/bootstrap.min.css" rel="stylesheet" />
+			<link href="http://emalherbi.github.io/curriculum/lib/html5-boilerplate/css/normalize.css" rel="stylesheet" />
+		 	<link href="http://emalherbi.github.io/curriculum/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
 			<link href="http://emalherbi.github.io/curriculum/css/app.css" rel="stylesheet" />
 
 			<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
