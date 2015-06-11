@@ -15,6 +15,7 @@
   "exportsOverride": {
     "bootstrap": {
       "css": "**/bootstrap.css",
+      "js": "**/bootstrap.js",
       "fonts": [
         "**/**.woff",
         "**/**.ttf"

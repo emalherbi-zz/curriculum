@@ -41,10 +41,6 @@ module.exports = function(grunt) {
   }
 
   // tasks
-  grunt.registerTask('bower', [
-    'bower:install'
-  ]);
-
   grunt.registerTask('default', [
     'gh-pages'
   ]);
