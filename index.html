@@ -1,365 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Résumé</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="" >
-	<meta name="author" content="" >
+  <head>
+    <meta charset="utf-8">
+    <title>Résumé</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Resume by emalherbi">
+    <meta name="author" content="emalherbi">
 
-	<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css' />
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Maven+Pro' type='text/css'>
+    <link rel="stylesheet" href="lib/html5-boilerplate/css/normalize.css">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/components-font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/medium-editor/dist/css/medium-editor.min.css">
+    <link rel="stylesheet" href="lib/medium-editor/dist/css/themes/bootstrap.min.css">
 
-	<!-- build:css css/app.min.css -->
-	<link rel="stylesheet" href="lib/html5-boilerplate/css/normalize.css">
-  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" href="lib/components-font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="lib/medium-editor/css/medium-editor.css">
-	<link rel="stylesheet" href="lib/medium-editor/themes/bootstrap.css">
-	<link rel="stylesheet" href="css/app.css">
-	<!-- endbuild -->
+    <!-- build:css css/app.min.css -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- endbuild -->
 
-	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-</head>
-<body>
-	<!-- NAVBAR -->
-  <header class="navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="1" style="width:100%" >
-  	<div class="container">
-  		<div class="navbar-header">
-  			<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-  				<span class="sr-only"></span>
-  				<span class="icon-bar"></span>
-  				<span class="icon-bar"></span>
-  				<span class="icon-bar"></span>
-  			</button>
-  			<a href="#" class="navbar-brand">Résumé</a>
-  		</div>
-  		<nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation" >
-  			<ul class="nav navbar-nav">
-          <li class="active"><a id="btn-en" href="javascript:void(0)">EN</a></li>
-					<li><a id="btn-pt" href="javascript:void(0)">PT</a></li>
-  			</ul>
-  			<ul class="nav navbar-nav navbar-right">
-					<li><a href="https://github.com/emalherbi/curriculum"><i class="fa fa-github fa-lg"></i></a></li>
-					<li><a id="btn-edit" href="javascript:void(0)"><i class="fa fa-pencil-square-o fa-lg"></i></a></li>
-					<li><a id="btn-save" href="javascript:void(0)"><i class="fa fa-download fa-lg"></i></a></li>
-					<li><a id="btn-pdf" href="javascript:void(0)"><i class="fa fa-file-pdf-o fa-lg"></i></a></li>
-  			</ul>
-  		</nav>
-  	</div>
-  </header>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <header class="navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="1" style="width:100%">
+      <div class="container">
+        <div class="navbar-header">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="javascript:void(0)" class="navbar-brand">Résumé</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav">
+            <li class="active">
+              <a id="btn-en" href="javascript:void(0)">EN</a>
+            </li>
+            <li>
+              <a id="btn-pt" href="javascript:void(0)">PT</a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="https://github.com/emalherbi/curriculum" target="_blank">
+                <i class="fa fa-github fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a id="btn-edit" href="javascript:void(0)">
+                <i class="fa fa-pencil-square-o fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a id="btn-save" href="javascript:void(0)">
+                <i class="fa fa-download fa-lg"></i>
+              </a>
+            </li>
+            <li>
+              <a id="btn-pdf" href="javascript:void(0)">
+                <i class="fa fa-file-pdf-o fa-lg"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-	<div class="container">
-		<div class="row">
-			<div id="resume" name="resume" class="col-md-10 col-md-offset-1" >
-			</div>
-		</div>
-	</div>
+    <div class="container">
+      <div class="row">
+        <div id="resume" name="resume" class="col-md-10 col-md-offset-1">
+          <!-- RESUME -->
+        </div>
+      </div>
+    </div>
 
-	<!-- build:js js/app.min.js -->
-	<script type="text/javascript" src="lib/jquery/js/jquery.js"></script>
-	<script type="text/javascript" src="lib/bootstrap/js/bootstrap.js"></script>
-	<script type="text/javascript" src="lib/medium-editor/js/medium-editor.js"></script>
-	<script type="text/javascript" src="js/mustache.js"></script>
-	<script type="text/javascript" src="js/FileSaver.js"></script>
-	<script type="text/javascript" src="js/jszip.min.js"></script>
-	<script type="text/javascript" src="js/jspdf.debug.js"></script>
-	<script type="text/javascript" src="js/app.js"></script>
-	<!-- endbuild -->
+    <!-- TEMPLATE -->
+    <template id="template" type="text/html">
 
-	<script id="template" type="text/html">
-		<!DOCTYPE html>
-		<html lang="{{lang}}">
-		<head>
-			<meta charset="utf-8">
-			<title>Résumé</title>
-			<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<meta name="description" content="" >
-			<meta name="author" content="" >
+      <div class="editable">
+        <h1 class="page-header">{{name}}
+          <small id="phone" class="pull-right">{{phone}}</small>
+        </h1>
+        <h4 id="phone-print" class="hide">{{phone}}</h4>
+        <span id="birthday" class="hide">{{birthday}}</span>
 
-			<link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css' />
+        <div>
+          {{#about}}
+            <h4>{{{description}}}</h4>
+          {{/about}}
+        </div>
+      </div>
 
-			<link href="http://emalherbi.github.io/curriculum/lib/html5-boilerplate/css/normalize.css" rel="stylesheet" />
-		 	<link href="http://emalherbi.github.io/curriculum/lib/bootstrap/css/bootstrap.css" rel="stylesheet" />
-			<link href="http://emalherbi.github.io/curriculum/css/app.css" rel="stylesheet" />
+      <div class="editable">
+        {{#summary}}
 
-			<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-			<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-			<!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-			<![endif]-->
-		</head>
-		<body>
-			<div class="container">
-				<div class="row clearfix">
-					<div id="resume" name="resume" class="col-md-10 col-md-offset-1" >
-						{{{resume}}}
-					</div>
-				</div>
-			</div>
+          {{#first}}
+            <h2 class="page-header">{{{title}}}</h2>
+          {{/first}}
 
-			{{#script}}
-			{{{url}}}
-			{{/script}}
+          {{#second}}
+            <h4>
+              <i>{{{subtitle}}}</i>
+            </h4>
+          {{/second}}
 
-		</body>
-		</html>
-	</script>
+          <ul>
+            {{#items}}
+              <li>{{{description}}}</li>
+            {{/items}}
+          </ul>
 
-	<template id="template-pt-br" type="text/html" >
-		<div id="name_details" >
-			<h1 class="editable border-bottom" >Eduardo Malherbi Martins <span  id="phone" >(046) 9914 2507</span></h1>
-			<div class="editable" >
-				<h4>Brasileiro, 28 anos, solteiro, sem filhos.</h4>
-				<h4>Pato Branco - Paraná.</h4>
-				<h4>Disponibilidade parar morar fora ou viagens.</h4>
-			</div>
-		</div>
-		<div id="summary" class="editable" >
-			<h2 class="title border-bottom" >Resumo das Qualificações</h2>
-			<h4>Interesse no desenvolvimento de softwares WEB.</h4>
-			<ul>
-				<li>Gerente de projetos da equipe de desenvolvimento WEB na XPert.</li>
-				<li>Trabalha em projetos desenvolvendo sites e sistemas web com HTML, CSS, JQuery e PHP.</li>
-				<li>Coordenador e desenvolvedor com FLEX e PHP utilizando o framework ZEND com Banco de Dados SQL Server.</li>
-				<li>Desenvolvedor para aplicações móveis, com HTML, JQueryMobile e PHP.</li>
-			</ul>
-		</div>
-		<div id="professional_experience" class="editable" >
-			<h2 class="title border-bottom" >Experiência Profissional</h2>
-			<div class="experiences">
-				<h3>Coordenador Equipe Web</h3>
-				<p> XPert (<b><a href="http://www.xpert.com.br">www.xpert.com.br</a></b>) Pato Branco, Paraná. (Junho, 2012 - até o momento)</p>
-				<ul>
-					<li>Gerenciamento de projetos da equipe de desenvolvimento web</li>
-					<li>Planejamento e alocação de tarefas aos colaboradores da equipe</li>
-					<li>Controle de versões dos produtos e auxilio dos programadores nas tarefas realizadas</li>
-					<li>Configuração dos servidores Linux e Windows</li>
-					<li>Instalação e configuração do ambiente web para os diversos sistemas operacionais</li>
-					<li>Liberação de releases e configuração dos projetos nas plataformas Linux e Windows</li>
-					<li>Codificação e manutenção dos projetos web</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Desenvolvimento WEB / WEB Design</h3>
-				<p> XPert (<b><a href="http://www.xpert.com.br">www.xpert.com.br</a></b>) Pato Branco, Paraná. (Dezembro, 2010 - Junho, 2012)</p>
-				<ul>
-					<li>Desenvolvimento WEB: Flash Builder 4. HTML. XHMTL. CSS. CSS3. JavaScript. JQuery. JQueryMobile. Prototype. PHP</li>
-					<li>Criação de Relatórios: PHP (FPDF)</li>
-					<li>Nota Fiscal Eletrônica: PHP (NFePhp)</li>
-					<li>Conhecimento de Transporte Eletrônico: PHP (NFePhp)</li>
-					<li>Banco De Dados: SQL Server 2000, 2005, 2008, 2012, PostgreSQL, MySQL</li>
-					<li>Comunicação com console: C + Php + JqueryMobile (Projeto que realiza a comunicação com a bomba de combustível através do celular)</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Desenvolvimento Desktop</h3>
-				<p> XPert (<b><a href="http://www.xpert.com.br">www.xpert.com.br</a></b>) Pato Branco, Paraná. (Outubro, 2009 - Dezembro, 2010)</p>
-				<ul>
-					<li>Desenvolvimento Desktop: Linguagem Object Pascal (Delphi7, Delphi2007 e Delphi2010)</li>
-					<li>Criação de Relatórios: FastReport e QuickReport</li>
-					<li>Modelagem de Dados: PowerDesigner</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Desenvolvimento Mainframe</h3>
-				<p> CPMBraxis (<b><a href="http://www.cpmbraxis.com">www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Setembro, 2008 - Agosto, 2009)</p>
-				<ul>
-					<li>Desenvolvimento de programas na linguagem COBOL, utilizando a ferramenta Micro Focus MainFrame (MFE)</li>
-					<li>Construção de módulos Bath, IMS e Stored Procedures para o projeto Application Outsourcing do cliente Bradesco</li>
-					<li>Construção e Execução de testes unitários na ferramenta HexaVision</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Analista de Teste e Tester de Software em Mainframe e Java</h3>
-				<p> CPMBraxis (<b><a href="http://www.cpmbraxis.com">www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Novembro, 2007 - Agosto, 2008)</p>
-				<ul>
-					<li>Analise e teste de software projeto GDP</li>
-					<li>Criar e executar casos de teste, gerar evidencias e massa de dados</li>
-					<li>Realização profissional, obtendo maior conhecimento em analise e teste de software utilizando a ferramenta MERCURY QUALITY CENTER para o projeto GDP do cliente HSBC</li>
-				</ul>
-			</div>
-		</div>
-		<div id="skills" class="editable" >
-			<h2 class="title border-bottom" >Conhecimentos em Tecnologia</h2>
-			<ul>
-				<li>Desenvolvimento WEB: HTML. XHTML. CSS. CSS3. SASS. LESS. JavaScript. JQuery. Prototype. React. AngularJS. Bootstrap. PureCSS. Alloyui. Topcoat. Flash Builder 4. PHP. ZEND. Java.</li>
-				<li>Desenvolvimento Desktop: Linguagem Object Pascal (Delphi7, Delphi2007, Delphi2010). Visual Basic. Java.</li>
-				<li>Desenvolvimento Mobile: Android (Java). XHTML. PHP. JQqueryMobile. PhoneGap.</li>
-				<li>Criação de Relatórios: FastReport. QuickReport. PHP (FPDF). DOMPDF.</li>
-				<li>Nota Fiscal Eletrônica. Conhecimento de Transporte Eletrônico: NFePHP.</li>
-				<li>Programação Mainframe: COBOL (Bath, IMS e Stored Procedures), ferramenta Micro Focus MainFrame (MFE).</li>
-				<li>SGBD: Sql Server 2000, 2005, 2008, 2012. DB2. MySql. PostgreSQL.</li>
-				<li>Criação de Casos de Testes e Teste de Software: MERCURY QUALITY CENTER. HexaVison (HSBC).</li>
-				<li>Modelagem de Dados: PowerDesigner.</li>
-			</ul>
-		</div>
-		<div id="education" class="editable" >
-			<h2 class="title border-bottom" >Formação Acadêmica</h2>
-			<ul>
-				<li>Bacharel em Sistemas de Informação Faculdade Mater Dei (2010)</li>
-				<li>Especialização em JAVA, UTFPR (Universidade Tecnológica Federal do Paraná) (2011)</li>
-			</ul>
-			<h2 class="title border-bottom" >Cursos</h2>
-			<ul>
-				<li>Adobe Flex Extended e Avançado - ENG DTP Multimídia</li>
-				<li>Programação COBOL para ambiente Mainframe (Batch/IMS/Módulo CICS/DB2) - CPMBraxis</li>
-				<li>Metodologia de teste de software, Estimativa no Projeto de Teste, Como Elaborar um Plano de Teste - Iteste</li>
-			</ul>
-		</div>
-		<div id="language_skills" class="editable" >
-			<h2 class="title border-bottom" >Línguas Estrangeiras</h2>
-			<ul>
-				<li>Nome do Curso: English</li>
-				<li>Entidade de Ensino: CCAA</li>
-				<li>Descrição: Oral and Written Communication Course</li>
-				<li>Situação: Último semestre</li>
-			</ul>
-		</div>
-		<div  id="contact_details" class="editable" >
-			<h2 class="title border-bottom">Contato</h2>
-			<div class="editable" >
-				<ul>
-					<li><a id="my-email" href="mailto:emalherbi@gmail.com" >email: <b>emalherbi@gmail.com.</b></a></li>
-					<li><a id="my-page" href="http://emalherbi.com/about/" >page: <b>emalherbi.com.</b></a></li>
-					<li><a id="my-portfolio" href="http://malherbi.com/portfolio/" >portfolio: <b>malherbi.com.</b></a></li>
-					<li><a id="my-linkedin" href="http://br.linkedin.com/in/emalherbi" >linkedin: <b>br.linkedin.com/in/emalherbi.</b></a></li>
-					<li><a id="my-github" href="https://github.com/emalherbi" >github: <b>github.com/emalherbi.</b></a></li>
-					<li><a id="my-npm" href="https://www.npmjs.org/~emalherbi" >npm: <b>www.npmjs.org/~emalherbi.</b></a></li>
-				</ul>
-			</div>
-		</div>
-	</template>
+        {{/summary}}
+      </div>
 
-	<template id="template-en" type="text/html" >
-		<div id="name_details">
-			<h1 class="editable border-bottom" >Eduardo Malherbi Martins <span id="phone" >(046) 9914 2507</span></h1>
-			<div class="editable" >
-				<h4>Brazilian, 28 years, single, no children.</h4>
-				<h4>Pato Branco - Paraná.</h4>
-				<h4>Willingness to travel or live outsite.</h4>
-			</div>
-		</div>
-		<div  id="summary" class="editable" >
-			<h2 class="title border-bottom">Summary of Qualifications</h2>
-			<h4>Interest in the development of WEB software.</h4>
-			<ul>
-				<li>Project manager WEB development team in XPert.</li>
-				<li>Working on projects developing web sites and systems with HTML, CSS, JQuery and PHP.</li>
-				<li>Coordinator and developer with Flex and PHP using Zend Framework with Database SQL Server.</li>
-				<li>Developer for mobile applications with HTML, PHP and JQueryMobile.</li>
-			</ul>
-		</div>
-		<div  id="professional_experience" class="editable" >
-			<h2 class="title border-bottom">Professional Experience</h2>
-			<div class="experiences">
-				<h3>Coordinator Web Team</h3>
-				<p> XPert (<b><a href="http://www.xpert.com.br">www.xpert.com.br</a></b>) Pato Branco, Paraná. (June, 2012 - yet)</p>
-				<ul>
-					<li>Project management of web development team.</li>
-					<li>Planning and allocation of tasks to team players.</li>
-					<li>Versioning of products and aid programmers in the tasks performed.</li>
-					<li>Configuring Linux and Windows servers.</li>
-					<li>Installation and web for various operating systems environment configuration.</li>
-					<li>Liberation of releases and configuration of projects on Linux and Windows platforms.</li>
-					<li>Coding and maintenance of web projects.</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Web Development / Web Design</h3>
-				<p> XPert (<b><a href="http://www.xpert.com.br">www.xpert.com.br</a></b>) Pato Branco, Paraná. (December, 2010 - June, 2012)</p>
-				<ul>
-					<li>WEB development: Flash Builder 4, HTML, XHMTL, CSS, CSS3, JavaScript, JQuery, JQueryMobile, Prototype, PHP.</li>
-					<li>Creating Reports: PHP (FPDF), DOMPDF.</li>
-					<li>Electronic Tax Invoice: PHP (NFePhp).</li>
-					<li>Electronic Knowledge of Transportation: PHP (NFePhp).</li>
-					<li>Database: SQL Server 2000, 2005, 2008, 2012, PostgreSQL, MySQL.</li>
-					<li>Communication with console: C + Php + JqueryMobile (Design which performs communication with the fuel pump via the smartphone)</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Desktop Development</h3>
-				<p> XPert (<b><a href="http://www.xpert.com.br">www.xpert.com.br</a></b>) Pato Branco, Paraná. (October, 2009 - December, 2010)</p>
-				<ul>
-					<li>Desktop development: Object Pascal (Delphi7, Delphi2007 and Delphi2010)</li>
-					<li>Creating Reports: FastReport e QuickReport</li>
-					<li>Data Modeling: PowerDesigner</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Mainframe Development</h3>
-				<p> CPMBraxis (<b><a href="http://www.cpmbraxis.com">www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (September, 2008 - August, 2009)</p>
-				<ul>
-					<li>Development programs in COBOL, using Micro Focus MainFrame (MFE) tool</li>
-					<li>Construction of Bath, Stored Procedures and IMS modules for Application Outsourcing design Bradesco customer</li>
-					<li>Construction and execution of unit tests in Hexavision tool</li>
-				</ul>
-			</div>
-			<div class="experiences">
-				<h3>Test Analyst and Software Testing in Mainframe and Java</h3>
-				<p> CPMBraxis (<b><a href="http://www.cpmbraxis.com">www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (November, 2007 - August, 2008)</p>
-				<ul>
-					<li>Analysis and testing of software design GDP</li><li>Create and execute test cases, generate evidence and mass data</li>
-					<li>Professional achievement, obtaining greater knowledge in software analysis and testing using the tool MERCURY QUALITY CENTER for GDP HSBC customer design</li>
-				</ul>
-			</div>
-		</div>
-		<div  id="skills" class="editable" >
-			<h2 class="title border-bottom">Knowledge in Technology</h2>
-			<ul>
-				<li>WEB development: HTML. XHTML. CSS. CSS3. SASS. LESS. JavaScript. JQuery. Prototype. React. AngularJS. Bootstrap. PureCSS. Alloyui. Topcoat. Flash Builder 4. PHP. ZEND. Java.</li>
-				<li>Desktop development: Linguagem Object Pascal (Delphi7, Delphi2007, Delphi2010). Visual Basic. Java.</li>
-				<li>Mobile development: Android (Java). XHTML. PHP. JQqueryMobile. PhoneGap.</li>
-				<li>Creating Reports: FastReport. QuickReport. PHP (FPDF). DOMPDF.</li>
-				<li>Electronic Tax Invoice. Electronic Knowledge of Transportation: NFePHP.</li>
-				<li>Mainframe programming: COBOL (Bath, IMS e Stored Procedures), Micro Focus MainFrame (MFE).</li>
-				<li>SGBD: Sql Server 2000, 2005, 2008, 2012. DB2. MySql. PostgreSQL.</li>
-				<li>Creating Test Cases and Test Software: MERCURY QUALITY CENTER. HexaVison (HSBC).</li>
-				<li>Data Modeling: PowerDesigner.</li>
-			</ul>
-		</div>
-		<div  id="education" class="editable" >
-			<h2 class="title border-bottom">Education Background</h2>
-			<ul>
-				<li>Bachelor of Information Systems School Mater Dei (2010)</li>
-				<li>Expertise in JAVA, UTFPR (Federal Technological University of Paraná) (2011)</li>
-			</ul>
-			<h2 class="title border-bottom">Courses</h2>
-			<ul>
-				<li>Adobe Flex Extended and Forward - ENG DTP Multimídia</li>
-				<li>Programming for Mainframe COBOL (Batch / IMS / Module CICS/DB2) environment - CPMBraxis</li>
-				<li>Methodology for software testing, estimation on Test Project, How to Develop a Test Plan - Iteste</li>
-			</ul>
-		</div>
-		<div  id="language_skills" class="editable" >
-			<h2 class="title border-bottom">Foreign Languages</h2>
-			<ul>
-				<li>Name of Course: English</li>
-				<li>School: CCAA</li>
-				<li>Description: Oral and Written Communication Course</li>
-				<li>Situation: Last semester</li>
-			</ul>
-		</div>
-		<div  id="contact_details" class="editable" >
-			<h2 class="title border-bottom">Contact</h2>
-			<div class="editable" >
-				<ul>
-					<li><a id="my-email" href="mailto:emalherbi@gmail.com" >email: <b>emalherbi@gmail.com.</b></a></li>
-					<li><a id="my-page" href="http://emalherbi.com/about/" >page: <b>emalherbi.com.</b></a></li>
-					<li><a id="my-portfolio" href="http://malherbi.com/portfolio/" >portfolio: <b>malherbi.com.</b></a></li>
-					<li><a id="my-linkedin" href="http://br.linkedin.com/in/emalherbi" >linkedin: <b>br.linkedin.com/in/emalherbi.</b></a></li>
-					<li><a id="my-github" href="https://github.com/emalherbi" >github: <b>github.com/emalherbi.</b></a></li>
-					<li><a id="my-npm" href="https://www.npmjs.org/~emalherbi" >npm: <b>www.npmjs.org/~emalherbi.</b></a></li>
-				</ul>
-			</div>
-		</div>
-	</template>
+      <div class="editable">
+        {{#professional}}
 
-</body>
+          {{#first}}
+            <h2 class="page-header">{{{title}}}</h2>
+          {{/first}}
+
+          <div>
+            {{#experiences}}
+
+              {{#first}}
+                <h3>{{{title}}}</h3>
+              {{/first}}
+
+              {{#second}}
+                <p>{{{subtitle}}}</p>
+              {{/second}}
+
+              <ul>
+                {{#items}}
+                  <li>{{{description}}}</li>
+                {{/items}}
+              </ul>
+
+            {{/experiences}}
+          </div>
+
+        {{/professional}}
+      </div>
+
+      <div class="editable">
+        {{#skills}}
+
+          {{#first}}
+            <h2 class="page-header">{{{title}}}</h2>
+          {{/first}}
+
+          <ul>
+            {{#items}}
+              <li>{{{description}}}</li>
+            {{/items}}
+          </ul>
+
+        {{/skills}}
+      </div>
+
+      <div class="editable">
+        {{#education}}
+
+          {{#first}}
+            <h2 class="page-header">{{{title}}}</h2>
+          {{/first}}
+
+          <ul>
+            {{#items}}
+              <li>{{{description}}}</li>
+            {{/items}}
+          </ul>
+
+        {{/education}}
+      </div>
+
+      <div class="editable">
+        {{#languageskills}}
+
+          {{#first}}
+            <h2 class="page-header">{{{title}}}</h2>
+          {{/first}}
+
+          <ul>
+            {{#items}}
+              <li>{{{description}}}</li>
+            {{/items}}
+          </ul>
+
+        {{/languageskills}}
+      </div>
+
+      <div class="editable">
+        {{#contact}}
+
+          {{#first}}
+            <h2 class="page-header">{{{title}}}</h2>
+          {{/first}}
+
+          <ul>
+            {{#items}}
+              <li>{{{description}}}</li>
+            {{/items}}
+          </ul>
+
+        {{/contact}}
+      </div>
+
+      <br>
+      <br>
+    </template>
+
+    <script id="template-zip" type="text/html">
+      <!DOCTYPE html>
+      <html lang="{{lang}}">
+        <head>
+          <meta charset="utf-8">
+          <title>Résumé</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="">
+          <meta name="author" content="">
+
+          <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'/>
+          <link href="http://emalherbi.github.io/curriculum/lib/html5-boilerplate/css/normalize.css" rel="stylesheet"/>
+          <link href="http://emalherbi.github.io/curriculum/lib/bootstrap/css/bootstrap.css" rel="stylesheet"/>
+          <link href="http://emalherbi.github.io/curriculum/css/app.css" rel="stylesheet"/>
+
+          <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <![endif]-->
+        </head>
+        <body>
+          <div class="container">
+            <div class="row clearfix">
+              <div id="resume" name="resume" class="col-md-10 col-md-offset-1">
+                {{{resume}}}
+              </div>
+            </div>
+          </div>
+        </body>
+      </html>
+    </script>
+
+    <!-- build:js js/app.min.js -->
+    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="lib/medium-editor/dist/js/medium-editor.min.js"></script>
+    <script type="text/javascript" src="js/mustache.js"></script>
+    <script type="text/javascript" src="js/FileSaver.js"></script>
+    <script type="text/javascript" src="js/jszip.min.js"></script>
+    <script type="text/javascript" src="js/jspdf.debug.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <!-- endbuild -->
+
+  </body>
 </html>
