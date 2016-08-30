@@ -1,7 +1,7 @@
 Curriculum
 ==========
 
-A simple way to create your HTML resume.
+A simple way to create your HTML Résumé.
 
 ## How-to
 
@@ -35,4 +35,4 @@ Download it or Export to PDF.
 
 ## Creator
 
-Created and maintained by Eduardo Malherbi
+Created and maintained by Eduardo Malherbi.
