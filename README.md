@@ -1,4 +1,4 @@
-Curriculum
+:memo: Curriculum
 ==========
 
 A simple way to create your HTML Résumé.
