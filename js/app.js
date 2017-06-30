@@ -12,10 +12,12 @@ var Editor = {
   },
   activate: function() {
     E.setup();
+    toastr.success('Edit mode: ON.');
   },
   deactivate: function() {
     E.destroy();
     E = null;
+    toastr.success('Edit mode: OFF.');
   }
 };
 var EN = {

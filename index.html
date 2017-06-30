@@ -1,263 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Résumé</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Resume by emalherbi">
-    <meta name="author" content="emalherbi">
 
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Maven+Pro' type='text/css'>
-    <link rel="stylesheet" href="lib/html5-boilerplate/css/normalize.css">
-    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="lib/components-font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="lib/medium-editor/dist/css/medium-editor.min.css">
-    <link rel="stylesheet" href="lib/medium-editor/dist/css/themes/bootstrap.min.css">
+<head>
+  <meta charset="utf-8">
+  <title>Résumé</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resume by emalherbi">
+  <meta name="author" content="emalherbi">
 
-    <!-- build:css css/app.min.css -->
-    <link rel="stylesheet" href="css/app.css">
-    <!-- endbuild -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Maven+Pro" type="text/css">
+  <link rel="stylesheet" href="lib/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/components-font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="lib/medium-editor/dist/css/medium-editor.min.css">
+  <link rel="stylesheet" href="lib/medium-editor/dist/css/themes/bootstrap.min.css">
+  <link rel="stylesheet" href="lib/toastr/toastr.min.css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <header class="navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="1" style="width:100%">
-      <div class="container">
-        <div class="navbar-header">
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-            <span class="sr-only"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a href="javascript:void(0)" class="navbar-brand">Résumé</a>
-        </div>
-        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-          <ul class="nav navbar-nav">
-            <li class="active">
-              <a id="btn-en" href="javascript:void(0)">EN</a>
-            </li>
-            <li>
-              <a id="btn-pt" href="javascript:void(0)">PT</a>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="https://github.com/emalherbi/curriculum" target="_blank">
+  <!-- build:css css/app.min.css -->
+  <link rel="stylesheet" href="css/app.css">
+  <!-- endbuild -->
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar navbar-default navbar-static-top" role="banner" data-spy="affix" data-offset-top="1" style="width:100%">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="javascript:void(0)" class="navbar-brand">Résumé</a>
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a id="btn-en" href="javascript:void(0)">EN</a>
+          </li>
+          <li>
+            <a id="btn-pt" href="javascript:void(0)">PT</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="https://github.com/emalherbi/curriculum" target="_blank">
                 <i class="fa fa-github fa-lg"></i>
               </a>
-            </li>
-            <li>
-              <a id="btn-edit" href="javascript:void(0)">
+          </li>
+          <li>
+            <a id="btn-edit" href="javascript:void(0)">
                 <i class="fa fa-pencil-square-o fa-lg"></i>
               </a>
-            </li>
-            <li>
-              <a id="btn-save" href="javascript:void(0)">
+          </li>
+          <li>
+            <a id="btn-save" href="javascript:void(0)">
                 <i class="fa fa-download fa-lg"></i>
               </a>
-            </li>
-            <li>
-              <a id="btn-pdf" href="javascript:void(0)">
+          </li>
+          <li>
+            <a id="btn-pdf" href="javascript:void(0)">
                 <i class="fa fa-file-pdf-o fa-lg"></i>
               </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <div class="container">
-      <div class="row">
-        <div id="resume" name="resume" class="col-md-10 col-md-offset-1">
-          <!-- RESUME -->
-        </div>
+  <div class="container">
+    <div class="row">
+      <div id="resume" name="resume" class="col-md-10 col-md-offset-1">
+        <!-- RESUME -->
+      </div>
+    </div>
+  </div>
+
+  <!-- TEMPLATE -->
+  <template id="template" type="text/html">
+
+    <div class="editable">
+      <h1 class="page-header">{{name}}
+          <small id="phone" class="pull-right">{{phone}}</small>
+        </h1>
+      <h4 id="phone-print" class="hide">{{phone}}</h4>
+      <span id="birthday" class="hide">{{birthday}}</span>
+
+      <div>
+        {{#about}}
+        <h4>{{{description}}}</h4> {{/about}}
       </div>
     </div>
 
-    <!-- TEMPLATE -->
-    <template id="template" type="text/html">
+    <div class="editable">
+      {{#summary}} {{#first}}
+      <h2 class="page-header">{{{title}}}</h2> {{/first}} {{#second}}
+      <h4>
+              <i>{{{subtitle}}}</i>
+            </h4> {{/second}}
 
-      <div class="editable">
-        <h1 class="page-header">{{name}}
-          <small id="phone" class="pull-right">{{phone}}</small>
-        </h1>
-        <h4 id="phone-print" class="hide">{{phone}}</h4>
-        <span id="birthday" class="hide">{{birthday}}</span>
+      <ul>
+        {{#items}}
+        <li>{{{description}}}</li>
+        {{/items}}
+      </ul>
 
-        <div>
-          {{#about}}
-            <h4>{{{description}}}</h4>
-          {{/about}}
+      {{/summary}}
+    </div>
+
+    <div class="editable">
+      {{#professional}} {{#first}}
+      <h2 class="page-header">{{{title}}}</h2> {{/first}}
+
+      <div>
+        {{#experiences}} {{#first}}
+        <h3>{{{title}}}</h3> {{/first}} {{#second}}
+        <p>{{{subtitle}}}</p>
+        {{/second}}
+
+        <ul>
+          {{#items}}
+          <li>{{{description}}}</li>
+          {{/items}}
+        </ul>
+
+        {{/experiences}}
+      </div>
+
+      {{/professional}}
+    </div>
+
+    <div class="editable">
+      {{#skills}} {{#first}}
+      <h2 class="page-header">{{{title}}}</h2> {{/first}}
+
+      <ul>
+        {{#items}}
+        <li>{{{description}}}</li>
+        {{/items}}
+      </ul>
+
+      {{/skills}}
+    </div>
+
+    <div class="editable">
+      {{#education}} {{#first}}
+      <h2 class="page-header">{{{title}}}</h2> {{/first}}
+
+      <ul>
+        {{#items}}
+        <li>{{{description}}}</li>
+        {{/items}}
+      </ul>
+
+      {{/education}}
+    </div>
+
+    <div class="editable">
+      {{#languageskills}} {{#first}}
+      <h2 class="page-header">{{{title}}}</h2> {{/first}}
+
+      <ul>
+        {{#items}}
+        <li>{{{description}}}</li>
+        {{/items}}
+      </ul>
+
+      {{/languageskills}}
+    </div>
+
+    <div class="editable">
+      {{#contact}} {{#first}}
+      <h2 class="page-header">{{{title}}}</h2> {{/first}}
+
+      <ul>
+        {{#items}}
+        <li>{{{description}}}</li>
+        {{/items}}
+      </ul>
+
+      {{/contact}}
+    </div>
+
+    <br>
+    <br>
+  </template>
+
+  <script id="template-zip" type="text/html">
+    <!DOCTYPE html>
+    <html lang="{{lang}}">
+
+    <head>
+      <meta charset="utf-8">
+      <title>Résumé</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="">
+      <meta name="author" content="">
+
+      <link href="http://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" type="text/css">
+      <link href="http://emalherbi.github.io/curriculum/lib/html5-boilerplate/css/normalize.css" rel="stylesheet">
+      <link href="http://emalherbi.github.io/curriculum/lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="http://emalherbi.github.io/curriculum/css/app.css" rel="stylesheet">
+
+      <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+
+    <body>
+      <div class="container">
+        <div class="row clearfix">
+          <div id="resume" name="resume" class="col-md-10 col-md-offset-1">
+            {{{resume}}}
+          </div>
         </div>
       </div>
+    </body>
 
-      <div class="editable">
-        {{#summary}}
+    </html>
+  </script>
 
-          {{#first}}
-            <h2 class="page-header">{{{title}}}</h2>
-          {{/first}}
+  <!-- build:js js/app.min.js -->
+  <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="lib/medium-editor/dist/js/medium-editor.min.js"></script>
+  <script type="text/javascript" src="lib/toastr/toastr.min.js"></script>
+  <script type="text/javascript" src="js/mustache.js"></script>
+  <script type="text/javascript" src="js/FileSaver.js"></script>
+  <script type="text/javascript" src="js/jszip.min.js"></script>
+  <script type="text/javascript" src="js/jspdf.debug.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <!-- endbuild -->
 
-          {{#second}}
-            <h4>
-              <i>{{{subtitle}}}</i>
-            </h4>
-          {{/second}}
+</body>
 
-          <ul>
-            {{#items}}
-              <li>{{{description}}}</li>
-            {{/items}}
-          </ul>
-
-        {{/summary}}
-      </div>
-
-      <div class="editable">
-        {{#professional}}
-
-          {{#first}}
-            <h2 class="page-header">{{{title}}}</h2>
-          {{/first}}
-
-          <div>
-            {{#experiences}}
-
-              {{#first}}
-                <h3>{{{title}}}</h3>
-              {{/first}}
-
-              {{#second}}
-                <p>{{{subtitle}}}</p>
-              {{/second}}
-
-              <ul>
-                {{#items}}
-                  <li>{{{description}}}</li>
-                {{/items}}
-              </ul>
-
-            {{/experiences}}
-          </div>
-
-        {{/professional}}
-      </div>
-
-      <div class="editable">
-        {{#skills}}
-
-          {{#first}}
-            <h2 class="page-header">{{{title}}}</h2>
-          {{/first}}
-
-          <ul>
-            {{#items}}
-              <li>{{{description}}}</li>
-            {{/items}}
-          </ul>
-
-        {{/skills}}
-      </div>
-
-      <div class="editable">
-        {{#education}}
-
-          {{#first}}
-            <h2 class="page-header">{{{title}}}</h2>
-          {{/first}}
-
-          <ul>
-            {{#items}}
-              <li>{{{description}}}</li>
-            {{/items}}
-          </ul>
-
-        {{/education}}
-      </div>
-
-      <div class="editable">
-        {{#languageskills}}
-
-          {{#first}}
-            <h2 class="page-header">{{{title}}}</h2>
-          {{/first}}
-
-          <ul>
-            {{#items}}
-              <li>{{{description}}}</li>
-            {{/items}}
-          </ul>
-
-        {{/languageskills}}
-      </div>
-
-      <div class="editable">
-        {{#contact}}
-
-          {{#first}}
-            <h2 class="page-header">{{{title}}}</h2>
-          {{/first}}
-
-          <ul>
-            {{#items}}
-              <li>{{{description}}}</li>
-            {{/items}}
-          </ul>
-
-        {{/contact}}
-      </div>
-
-      <br>
-      <br>
-    </template>
-
-    <script id="template-zip" type="text/html">
-      <!DOCTYPE html>
-      <html lang="{{lang}}">
-        <head>
-          <meta charset="utf-8">
-          <title>Résumé</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <meta name="description" content="">
-          <meta name="author" content="">
-
-          <link href='http://fonts.googleapis.com/css?family=Maven+Pro' rel='stylesheet' type='text/css'/>
-          <link href="http://emalherbi.github.io/curriculum/lib/html5-boilerplate/css/normalize.css" rel="stylesheet"/>
-          <link href="http://emalherbi.github.io/curriculum/lib/bootstrap/css/bootstrap.css" rel="stylesheet"/>
-          <link href="http://emalherbi.github.io/curriculum/css/app.css" rel="stylesheet"/>
-
-          <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
-        </head>
-        <body>
-          <div class="container">
-            <div class="row clearfix">
-              <div id="resume" name="resume" class="col-md-10 col-md-offset-1">
-                {{{resume}}}
-              </div>
-            </div>
-          </div>
-        </body>
-      </html>
-    </script>
-
-    <!-- build:js js/app.min.js -->
-    <script type="text/javascript" src="lib/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="lib/medium-editor/dist/js/medium-editor.min.js"></script>
-    <script type="text/javascript" src="js/mustache.js"></script>
-    <script type="text/javascript" src="js/FileSaver.js"></script>
-    <script type="text/javascript" src="js/jszip.min.js"></script>
-    <script type="text/javascript" src="js/jspdf.debug.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-    <!-- endbuild -->
-
-  </body>
 </html>
