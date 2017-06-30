@@ -10,6 +10,7 @@
     "components-font-awesome": "~4.3.0",
     "html5-boilerplate": "~4.3.0",
     "jquery": "~2.1.4",
-    "medium-editor": "~4.8.0"
+    "medium-editor": "~4.8.0",
+    "toastr": "^2.1.3"
   }
 }
