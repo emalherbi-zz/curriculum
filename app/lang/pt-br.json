@@ -2,187 +2,285 @@
   "name": "Eduardo Malherbi Martins",
   "phone": "(046) 99914 2507",
   "birthday": "1986-10-31",
-  "about": [{
-    "description": "Brasileiro, <span class='age'>0</span> anos, solteiro, sem filhos."
-  }, {
-    "description": "Pato Branco - Paraná."
-  }, {
-    "description": "Disponibilidade parar morar fora ou viagens."
-  }],
-  "summary": [{
-    "title": "Resumo das Qualificações.",
-    "first": true
-  }, {
-    "subtitle": "Principal foco no desenvolvimento de softwares WEB.",
-    "second": true
-  }, {
-    "items": [{
-      "description": "Coordenador da equipe de desenvolvimento WEB na XPert."
-    }, {
-      "description": "Trabalha em projetos desenvolvendo sites e sistemas web com HTML, CSS, Javascript (JQuery, AngularJS) e PHP."
-    }, {
-      "description": "Desenvolvedor para aplicações móveis com Ionic, AngularJS e PHP."
-    }]
-  }],
-  "professional": [{
-    "title": "Experiência Profissional.",
-    "first": true
-  }, {
-    "experiences": [{
-      "title": "Coordenador Equipe Web.",
+  "about": [
+    {
+      "description": "Brasileiro, <span class='age'>0</span> anos, solteiro, sem filhos."
+    },
+    {
+      "description": "Pato Branco - Paraná."
+    },
+    {
+      "description": "Disponibilidade parar morar fora ou viagens."
+    }
+  ],
+  "summary": [
+    {
+      "title": "Resumo das Qualificações.",
       "first": true
-    }, {
-      "subtitle": " XPert (<b><a href='http://www.xpert.com.br'>www.xpert.com.br</a></b>) Pato Branco, Paraná. (Junho, 2012 - até o momento).",
+    },
+    {
+      "subtitle": "Principal foco no desenvolvimento de softwares WEB.",
       "second": true
-    }, {
-      "items": [{
-        "description": "Coordenador da equipe de desenvolvimento WEB na XPert."
-      }, {
-        "description": "Planejamento e alocação de tarefas aos colaboradores da equipe."
-      }, {
-        "description": "Controle de versões dos produtos e auxílio aos programadores nas tarefas realizadas."
-      }, {
-        "description": "Liberação de releases e configuração dos projetos nas plataformas Linux e Windows."
-      }, {
-        "description": "Codificação e manutenção dos projetos web."
-      }]
-    }, {
-      "title": "Desenvolvimento WEB / WEB Design.",
+    },
+    {
+      "items": [
+        {
+          "description": "Coordenador da equipe de desenvolvimento WEB na XPert."
+        },
+        {
+          "description": "Trabalha em projetos desenvolvendo sites e sistemas web com HTML, CSS, Javascript (JQuery, AngularJS) e PHP."
+        },
+        {
+          "description": "Desenvolvedor para aplicações móveis com Ionic, AngularJS e PHP."
+        }
+      ]
+    }
+  ],
+  "professional": [
+    {
+      "title": "Experiência Profissional.",
       "first": true
-    }, {
-      "subtitle": "XPert (<b><a href='http://www.xpert.com.br'>www.xpert.com.br</a></b>) Pato Branco, Paraná. (Dezembro, 2010 - Junho, 2012).",
-      "second": true
-    }, {
-      "items": [{
-        "description": "Desenvolvimento WEB: HTML. XHMTL. CSS. CSS3. JavaScript. JQuery. JQueryMobile. AngularJS. Flash Builder 4. ActionScript. PHP."
-      }, {
-        "description": "Criação de Relatórios: PHP (FPDF)."
-      }, {
-        "description": "Nota Fiscal Eletrônica: PHP (NFePhp)."
-      }, {
-        "description": "Banco De Dados: SQL Server 2000, 2005, 2008, 2012 e MySQL."
-      }]
-    }, {
-      "title": "Desenvolvimento Desktop.",
+    },
+    {
+      "experiences": [
+        {
+          "title": "Coordenador Equipe Web.",
+          "first": true
+        },
+        {
+          "subtitle": " XPert (<b><a href='http://www.xpert.com.br'>www.xpert.com.br</a></b>) Pato Branco, Paraná. (Junho, 2012 - até o momento).",
+          "second": true
+        },
+        {
+          "items": [
+            {
+              "description": "Coordenador da equipe de desenvolvimento WEB na XPert."
+            },
+            {
+              "description": "Planejamento e alocação de tarefas aos colaboradores da equipe."
+            },
+            {
+              "description": "Controle de versões dos produtos e auxílio aos programadores nas tarefas realizadas."
+            },
+            {
+              "description": "Liberação de releases e configuração dos projetos nas plataformas Linux e Windows."
+            },
+            {
+              "description": "Codificação e manutenção dos projetos web."
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento WEB / WEB Design.",
+          "first": true
+        },
+        {
+          "subtitle": "XPert (<b><a href='http://www.xpert.com.br'>www.xpert.com.br</a></b>) Pato Branco, Paraná. (Dezembro, 2010 - Junho, 2012).",
+          "second": true
+        },
+        {
+          "items": [
+            {
+              "description": "Desenvolvimento WEB: HTML. XHMTL. CSS. CSS3. JavaScript. JQuery. JQueryMobile. AngularJS. Flash Builder 4. ActionScript. PHP."
+            },
+            {
+              "description": "Criação de Relatórios: PHP (FPDF)."
+            },
+            {
+              "description": "Nota Fiscal Eletrônica: PHP (NFePhp)."
+            },
+            {
+              "description": "Banco De Dados: SQL Server 2000, 2005, 2008, 2012 e MySQL."
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento Desktop.",
+          "first": true
+        },
+        {
+          "subtitle": "XPert (<b><a href='http://www.xpert.com.br'>www.xpert.com.br</a></b>) Pato Branco, Paraná. (Outubro, 2009 - Dezembro, 2010).",
+          "second": true
+        },
+        {
+          "items": [
+            {
+              "description": "Desenvolvimento Desktop: Linguagem Object Pascal (Delphi7, Delphi2007 e Delphi2010)."
+            },
+            {
+              "description": "Criação de Relatórios: FastReport e QuickReport."
+            }
+          ]
+        },
+        {
+          "title": "Desenvolvimento Mainframe.",
+          "first": true
+        },
+        {
+          "subtitle": "CPMBraxis (<b><a href='http://www.cpmbraxis.com'>www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Setembro, 2008 - Agosto, 2009).",
+          "second": true
+        },
+        {
+          "items": [
+            {
+              "description": "Desenvolvimento de programas na linguagem COBOL, utilizando a ferramenta Micro Focus MainFrame (MFE)."
+            },
+            {
+              "description": "Construção de módulos Bath, IMS e Stored Procedures para o projeto Application Outsourcing do cliente Bradesco."
+            },
+            {
+              "description": "Construção e Execução de testes unitários na ferramenta HexaVision (HSBC)."
+            }
+          ]
+        },
+        {
+          "title": "Analista de Testes Mainframe e Java.",
+          "first": true
+        },
+        {
+          "subtitle": "CPMBraxis (<b><a href='http://www.cpmbraxis.com'>www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Fevereiro, 2008 - Agosto, 2008).",
+          "second": true
+        },
+        {
+          "items": [
+            {
+              "description": "Analise e desenvolvimento de casos de testes utilizando a ferramenta MERCURY QUALITY CENTER para o projeto GDP do cliente HSBC."
+            }
+          ]
+        },
+        {
+          "title": "Testador de Software em Mainframe e Java.",
+          "first": true
+        },
+        {
+          "subtitle": "CPMBraxis (<b><a href='http://www.cpmbraxis.com'>www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Novembro, 2007 - Fevereiro, 2008).",
+          "second": true
+        },
+        {
+          "items": [
+            {
+              "description": "Teste de software projeto GDP do cliente HSBC."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "Conhecimentos em Tecnologia.",
       "first": true
-    }, {
-      "subtitle": "XPert (<b><a href='http://www.xpert.com.br'>www.xpert.com.br</a></b>) Pato Branco, Paraná. (Outubro, 2009 - Dezembro, 2010).",
-      "second": true
-    }, {
-      "items": [{
-        "description": "Desenvolvimento Desktop: Linguagem Object Pascal (Delphi7, Delphi2007 e Delphi2010)."
-      }, {
-        "description": "Criação de Relatórios: FastReport e QuickReport."
-      }]
-    }, {
-      "title": "Desenvolvimento Mainframe.",
+    },
+    {
+      "items": [
+        {
+          "description": "Desenvolvimento WEB: HTML. XHTML. CSS. CSS3. SASS. LESS. JavaScript. JQuery. AngularJS. Bootstrap. PureCSS. Flash Builder 4. PHP. ZEND. Java."
+        },
+        {
+          "description": "Desenvolvimento Desktop: Linguagem Object Pascal (Delphi7, Delphi2007, Delphi2010). Visual Basic. Java."
+        },
+        {
+          "description": "Desenvolvimento Mobile: Ionic. PhoneGap. Android (Java). JQueryMobile."
+        },
+        {
+          "description": "Criação de Relatórios: FPDF. DOMPDF. FastReport. QuickReport."
+        },
+        {
+          "description": "Nota Fiscal Eletrônica. Conhecimento de Transporte Eletrônico: NFePHP."
+        },
+        {
+          "description": "Programação Mainframe: COBOL (Bath, IMS e Stored Procedures), ferramenta Micro Focus MainFrame (MFE)."
+        },
+        {
+          "description": "SGBD: Sql Server 2000, 2005, 2008, 2012. DB2. MySql."
+        },
+        {
+          "description": "Criação de Casos de Testes e Teste de Software: MERCURY QUALITY CENTER. HexaVison (HSBC)."
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Formação Acadêmica.",
       "first": true
-    }, {
-      "subtitle": "CPMBraxis (<b><a href='http://www.cpmbraxis.com'>www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Setembro, 2008 - Agosto, 2009).",
-      "second": true
-    }, {
-      "items": [{
-        "description": "Desenvolvimento de programas na linguagem COBOL, utilizando a ferramenta Micro Focus MainFrame (MFE)."
-      }, {
-        "description": "Construção de módulos Bath, IMS e Stored Procedures para o projeto Application Outsourcing do cliente Bradesco."
-      }, {
-        "description": "Construção e Execução de testes unitários na ferramenta HexaVision (HSBC)."
-      }]
-    }, {
-      "title": "Analista de Testes Mainframe e Java.",
+    },
+    {
+      "items": [
+        {
+          "description": "Bacharel em Sistemas de Informação FMD (Faculdade Mater Dei) - 2010."
+        },
+        {
+          "description": "Especialização em JAVA, UTFPR (Universidade Tecnológica Federal do Paraná) - 2011."
+        }
+      ]
+    },
+    {
+      "title": "Cursos.",
       "first": true
-    }, {
-      "subtitle": "CPMBraxis (<b><a href='http://www.cpmbraxis.com'>www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Fevereiro, 2008 - Agosto, 2008).",
-      "second": true
-    }, {
-      "items": [{
-        "description": "Analise e desenvolvimento de casos de testes utilizando a ferramenta MERCURY QUALITY CENTER para o projeto GDP do cliente HSBC."
-      }]
-    }, {
-      "title": "Testador de Software em Mainframe e Java.",
+    },
+    {
+      "items": [
+        {
+          "description": "Adobe Flex Extended e Avançado - ENG DTP Multimídia."
+        },
+        {
+          "description": "Programação COBOL para ambiente Mainframe (Batch/IMS/Módulo CICS/DB2) - CPMBraxis."
+        },
+        {
+          "description": "Metodologia de Teste de Software, Estimativa no Projeto de Teste, Como Elaborar um Plano de Teste - Iteste."
+        }
+      ]
+    }
+  ],
+  "languageskills": [
+    {
+      "title": "Línguas Estrangeiras.",
       "first": true
-    }, {
-      "subtitle": "CPMBraxis (<b><a href='http://www.cpmbraxis.com'>www.cpmbraxis.com.br</a></b>) Pato Branco, Paraná. (Novembro, 2007 - Fevereiro, 2008).",
-      "second": true
-    }, {
-      "items": [{
-        "description": "Teste de software projeto GDP do cliente HSBC."
-      }]
-    }]
-  }],
-  "skills": [{
-    "title": "Conhecimentos em Tecnologia.",
-    "first": true
-  }, {
-    "items": [{
-      "description": "Desenvolvimento WEB: HTML. XHTML. CSS. CSS3. SASS. LESS. JavaScript. JQuery. AngularJS. Bootstrap. PureCSS. Flash Builder 4. PHP. ZEND. Java."
-    }, {
-      "description": "Desenvolvimento Desktop: Linguagem Object Pascal (Delphi7, Delphi2007, Delphi2010). Visual Basic. Java."
-    }, {
-      "description": "Desenvolvimento Mobile: Ionic. PhoneGap. Android (Java). JQueryMobile."
-    }, {
-      "description": "Criação de Relatórios: FPDF. DOMPDF. FastReport. QuickReport."
-    }, {
-      "description": "Nota Fiscal Eletrônica. Conhecimento de Transporte Eletrônico: NFePHP."
-    }, {
-      "description": "Programação Mainframe: COBOL (Bath, IMS e Stored Procedures), ferramenta Micro Focus MainFrame (MFE)."
-    }, {
-      "description": "SGBD: Sql Server 2000, 2005, 2008, 2012. DB2. MySql."
-    }, {
-      "description": "Criação de Casos de Testes e Teste de Software: MERCURY QUALITY CENTER. HexaVison (HSBC)."
-    }]
-  }],
-  "education": [{
-    "title": "Formação Acadêmica.",
-    "first": true
-  }, {
-    "items": [{
-      "description": "Bacharel em Sistemas de Informação FMD (Faculdade Mater Dei) - 2010."
-    }, {
-      "description": "Especialização em JAVA, UTFPR (Universidade Tecnológica Federal do Paraná) - 2011."
-    }]
-  }, {
-    "title": "Cursos.",
-    "first": true
-  }, {
-    "items": [{
-      "description": "Adobe Flex Extended e Avançado - ENG DTP Multimídia."
-    }, {
-      "description": "Programação COBOL para ambiente Mainframe (Batch/IMS/Módulo CICS/DB2) - CPMBraxis."
-    }, {
-      "description": "Metodologia de Teste de Software, Estimativa no Projeto de Teste, Como Elaborar um Plano de Teste - Iteste."
-    }]
-  }],
-  "languageskills": [{
-    "title": "Línguas Estrangeiras.",
-    "first": true
-  }, {
-    "items": [{
-      "description": "Nome do Curso: English."
-    }, {
-      "description": "Entidade de Ensino: CCAA."
-    }, {
-      "description": "Descrição: Oral and Written Communication Course."
-    }, {
-      "description": "Situação: Último semestre."
-    }]
-  }],
-  "contact": [{
-    "title": "Contato.",
-    "first": true
-  }, {
-    "items": [{
-      "description": "Email: <a href='mailto:emalherbi@gmail.com'>emalherbi@gmail.com</a>."
-    }, {
-      "description": "Site: <a href='http://emalherbi.com/about/'>emalherbi.com</a>."
-    }, {
-      "description": "Portfólio: <a href='http://malherbi.com/portfolio/'>malherbi.com</a>."
-    }, {
-      "description": "Linkedin: <a href='http://br.linkedin.com/in/emalherbi'>br.linkedin.com/in/emalherbi</a>."
-    }, {
-      "description": "Github: <a href='https://github.com/emalherbi'>github.com/emalherbi</a>."
-    }, {
-      "description": "NPM: <a href='https://www.npmjs.org/~emalherbi'>www.npmjs.org/~emalherbi</a>."
-    }]
-  }]
+    },
+    {
+      "items": [
+        {
+          "description": "Nome do Curso: English."
+        },
+        {
+          "description": "Entidade de Ensino: CCAA."
+        },
+        {
+          "description": "Descrição: Oral and Written Communication Course."
+        },
+        {
+          "description": "Situação: Último semestre."
+        }
+      ]
+    }
+  ],
+  "contact": [
+    {
+      "title": "Contato.",
+      "first": true
+    },
+    {
+      "items": [
+        {
+          "description": "Email: <a href='mailto:emalherbi@gmail.com'>emalherbi@gmail.com</a>."
+        },
+        {
+          "description": "Site: <a href='http://emalherbi.com/about/'>emalherbi.com</a>."
+        },
+        {
+          "description": "Portfólio: <a href='http://malherbi.com/portfolio/'>malherbi.com</a>."
+        },
+        {
+          "description": "Linkedin: <a href='http://br.linkedin.com/in/emalherbi'>br.linkedin.com/in/emalherbi</a>."
+        },
+        {
+          "description": "Github: <a href='https://github.com/emalherbi'>github.com/emalherbi</a>."
+        },
+        {
+          "description": "NPM: <a href='https://www.npmjs.org/~emalherbi'>www.npmjs.org/~emalherbi</a>."
+        }
+      ]
+    }
+  ]
 }
