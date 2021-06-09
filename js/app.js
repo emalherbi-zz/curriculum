@@ -5,25 +5,25 @@ function age(birthday) {
 }
 var E = null;
 var Editor = {
-  start: function() {
+  start: function () {
     var elements = document.querySelectorAll('.editable');
     E = new MediumEditor(elements);
     Editor.activate();
   },
-  activate: function() {
+  activate: function () {
     E.setup();
     toastr.success('Edit mode: ON.');
   },
-  deactivate: function() {
+  deactivate: function () {
     E.destroy();
     E = null;
     toastr.success('Edit mode: OFF.');
   }
 };
 var EN = {
-  show: function() {
+  show: function () {
     $('#resume').children().remove();
-    $.get('lang/en.json', function(json) {
+    $.get('lang/en.json', function (json) {
       var source = document.getElementById('template').innerHTML;
       var output = Mustache.render(unescape(source), json);
       $('#resume').html(output);
@@ -35,9 +35,9 @@ var EN = {
   }
 };
 var PT = {
-  show: function() {
+  show: function () {
     $('#resume').children().remove();
-    $.get('lang/pt-br.json', function(json) {
+    $.get('lang/pt-br.json', function (json) {
       var source = document.getElementById('template').innerHTML;
       var output = Mustache.render(unescape(source), json);
       $('#resume').html(output);
@@ -49,14 +49,14 @@ var PT = {
   }
 };
 var PDF = {
-  make: function() {
+  make: function () {
     var pdf = new jsPDF('p', 'pt', 'A4');
     var source = $('#resume')[0];
     var specialElementHandlers = {
-      '#birthday': function(element, renderer) {
+      '#birthday': function (element, renderer) {
         return true;
       },
-      '#phone': function(element, renderer) {
+      '#phone': function (element, renderer) {
         return true;
       }
     };
@@ -73,7 +73,7 @@ var PDF = {
         'width': margins.width,
         'elementHandlers': specialElementHandlers
       },
-      function(dispose) {
+      function (dispose) {
         pdf.save('résumé-' + document.documentElement.lang + '.pdf');
       },
       margins
@@ -81,8 +81,8 @@ var PDF = {
   }
 };
 var Resume = {
-  save: function() {
-    $('#btn-save').click(function() {
+  save: function () {
+    $('#btn-save').click(function () {
       var view = {
         lang: document.documentElement.lang,
         resume: $('#resume').html().trim()
@@ -97,28 +97,28 @@ var Resume = {
       saveAs(content, 'résumé-' + document.documentElement.lang + '.zip');
     });
   },
-  pt: function() {
-    $('#btn-pt').click(function() {
+  pt: function () {
+    $('#btn-pt').click(function () {
       PT.show();
     });
   },
-  en: function() {
-    $('#btn-en').click(function() {
+  en: function () {
+    $('#btn-en').click(function () {
       EN.show();
     });
   },
-  edit: function() {
-    $('#btn-edit').click(function() {
-      (E) ? Editor.deactivate(): Editor.start();
+  edit: function () {
+    $('#btn-edit').click(function () {
+      (E) ? Editor.deactivate() : Editor.start();
     });
   },
-  pdf: function() {
-    $('#btn-pdf').click(function() {
+  pdf: function () {
+    $('#btn-pdf').click(function () {
       PDF.make();
     });
   }
 };
-$(document).ready(function() {
+$(document).ready(function () {
   Resume.pt();
   Resume.en();
   Resume.edit();
